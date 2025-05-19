@@ -1,0 +1,6 @@
+langchain
+faiss-cpu
+streamlit
+sentence-transformers
+pypdf
+tqdm
