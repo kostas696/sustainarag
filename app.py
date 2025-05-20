@@ -33,7 +33,7 @@ query = st.text_input("Ask a sustainability-related question:")
 
 if query:
     with st.spinner("Thinking..."):
-        result = qa_chain(query)
+        result = qa_chain.invoke(query)
         st.markdown("### Answer")
         st.write(result['result'])
 

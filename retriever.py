@@ -6,7 +6,7 @@ from langchain.chains import RetrievalQA
 from langchain_huggingface import HuggingFaceEndpoint
 
 INDEX_DIR = "faiss_index"
-HUGGINGFACE_MODEL = "google/flan-t5-base"
+HUGGINGFACE_MODEL = "HuggingFaceH4/zephyr-7b-beta"
 
 def load_vectorstore():
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
